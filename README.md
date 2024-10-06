@@ -21,15 +21,12 @@ This API simulates the vaccine registration system similar to the **CoWIN** app.
 - **Node.js**: Backend framework
 - **Express**: Web framework for Node.js
 - **MongoDB Atlas**: Cloud database for data storage
-- **Mongoose**: ODM for MongoDB
 - **Postman**: For API testing
 
-3. **Set up environment variables:**
-   Create a `.env` file in the root directory and add your MongoDB URI:
+3. **Mongo DB Credentials and connection String**
    ```env
-   MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<database-name>?retryWrites=true&w=majority
+   MONGODB_URI=mongodb+srv://omkaromkar721:Omkar%40187@cluster.mongodb.net/<database-name>?retryWrites=true&w=majority
    PORT=3000
-   JWT_SECRET=your-secret-key
    ```
    username : omkaromkar721
    password:Omkar@187(use %40 when included in the string as password includes '@' which is a special character)
