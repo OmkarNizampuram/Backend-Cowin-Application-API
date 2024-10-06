@@ -49,6 +49,7 @@ This API simulates the vaccine registration system similar to the **CoWIN** app.
    - **Method**: `POST`
    - **Description**: Registers a new user with mandatory details.
    - **Request** Body:
+     ```
      json
      {
        "name": "John Doe",
@@ -58,6 +59,7 @@ This API simulates the vaccine registration system similar to the **CoWIN** app.
        "aadharNo": "123412341234",
        "password": "password123"
      }
+     ```
 
    - **Response**: 
      ```json
@@ -116,6 +118,7 @@ This API simulates the vaccine registration system similar to the **CoWIN** app.
      - `vaccinated`: Optional. Filter by vaccination status (`none`, `first`, `second`).
    - **Response**:
       json
+     ```
      {
        "total": 10,
        "users": [
@@ -128,6 +131,7 @@ This API simulates the vaccine registration system similar to the **CoWIN** app.
          }
        ]
      }
+     ```
     
 
 #### 2. **Get Available Slots**
@@ -149,6 +153,7 @@ This API simulates the vaccine registration system similar to the **CoWIN** app.
      ```
 
 ## Data Flow Diagram
+![Flow diagram drawio](https://github.com/user-attachments/assets/7d3a34cb-2374-49ec-913e-68d90c75e05c)
 
 
 This flow diagram illustrates:
