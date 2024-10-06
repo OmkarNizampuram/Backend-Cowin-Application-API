@@ -34,8 +34,10 @@ This API simulates the vaccine registration system similar to the **CoWIN** app.
    username : omkaromkar721
    password:Omkar@187(use %40 when included in the string as password includes '@' which is a special character)
 
-5. **Start the server:**
-   > npm start
+5.**Start the server:**
+ ```
+   npm start
+```
    The API will run on `http://localhost:3000`.
 
 ## API Documentation
