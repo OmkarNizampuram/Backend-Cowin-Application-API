@@ -1,4 +1,4 @@
-# Backend-Developer-Assignment-I
+# Backend-Cowin-API
 # Vaccine Registration Backend API
 
 This project is a backend solution for a vaccine registration system. It allows users to register, book vaccine slots, and for admins to manage users and view available slots. The API is built using **Node.js**, **Express**, and **MongoDB Atlas**.
